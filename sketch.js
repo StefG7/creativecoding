@@ -3,8 +3,8 @@
  * @description Click and drag the mouse to draw a line.
  */
 function setup() {
-  createCanvas(710, 400);
-  background(102);
+  createCanvas(windowWidth, windowHeight);
+  background(0);
 }
 
 function draw() {
