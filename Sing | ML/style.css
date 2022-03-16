@@ -1,0 +1,10 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  background-image: url(https://media.istockphoto.com/photos/3d-render-abstract-futuristic-background-neon-light-glowing-ring-picture-id1207470617?k=20&m=1207470617&s=170667a&w=0&h=9WwYEVEkh-KGyR_8Wi7ggWfXig_aEwHOZCzffsU236A=);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
