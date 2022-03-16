@@ -56,19 +56,24 @@
     top: 550px
  }
 #biocss {
-   font-family: 'Arial';
-   font-size: 1.5em;
-   position: relative;
-   left: 22%;
+    font-family: 'Arial';
+    font-size: 1.5em;
+    position: relative;
+    left: 20%;
     top: 950px;
 }
+#csc2 {
+    position: relative;
+    left: 10px;
+    top: -380px;
+  }
 #bio-name {
-   position: relative;
+    position: relative;
     left: 320px;
     top: -360px;
 }
 #bio-text {
-   position: relative;
+    position: relative;
     left: 160px;
     top: -360px;
 }
