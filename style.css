@@ -15,50 +15,50 @@
    position: absolute;
     left: 20%;
 }
-#csc1 {
-    position: relative;
-    font-family: 'Arial';
-    text-align: center;
-    font-size: 1em;
-    line-height: normal;
-}
 #sketch2 {
    position: relative;
     left: 20%;
     top: 850px;
-}
-#csc2 {
-    font-family: 'Arial';
-    text-align: center;
-    font-size: 1em;
-    line-height: normal;
 }
 #sketch3 {
    position: relative;
     left: 20%;
     top: 750px;
 }
-#csc3 {
-    font-family: 'Arial';
-    text-align: center;
-    font-size: 1em;
-    line-height: normal;
-}
 #sketch4 {
     position: relative;
      left: 20%;
      top: 750px;
  }
- #csc4 {
-    font-family: 'Arial';
-    text-align: center;
-    font-size: 1em;
-    line-height: normal;
-}
+#sketch5 {
+    position: relative;
+     left: 20%;
+     top: 750px;
+ }
+#sketch6 {
+    position: relative;
+     left: 20%;
+     top: 750px;
+ }
+#sketch7 {
+    position: relative;
+     left: 20%;
+     top: 750px;
+ }
+#sketch8 {
+    position: relative;
+     left: 20%;
+     top: 750px;
+ }
+#sketch9 {
+    position: relative;
+     left: 20%;
+     top: 750px;
+ }
 #biocss {
    position: relative;
     left: 20%;
-    top: 950px;
+    top: 1950px;
 }
 #bio-name {
    position: relative;
