@@ -6,29 +6,59 @@
     line-height: 70%;
 }
 #csc {
-  font-family: 'Verdana';
+  font-family: 'Arial';
   text-align: center;
-  font-size 2em;
+  font-size: 2em;
   line-height: 200%;
 }
 #sketch1 {
    position: absolute;
     left: 20%;
 }
+#csc1 {
+    position: relative;
+    font-family: 'Arial';
+    text-align: center;
+    font-size: 1em;
+    line-height: normal;
+}
 #sketch2 {
    position: relative;
     left: 20%;
-    top: 750px;
+    top: 850px;
+}
+#csc2 {
+    font-family: 'Arial';
+    text-align: center;
+    font-size: 1em;
+    line-height: normal;
 }
 #sketch3 {
    position: relative;
     left: 20%;
     top: 750px;
 }
+#csc3 {
+    font-family: 'Arial';
+    text-align: center;
+    font-size: 1em;
+    line-height: normal;
+}
+#sketch4 {
+    position: relative;
+     left: 20%;
+     top: 750px;
+ }
+ #csc4 {
+    font-family: 'Arial';
+    text-align: center;
+    font-size: 1em;
+    line-height: normal;
+}
 #biocss {
    position: relative;
     left: 20%;
-    top: 750px;
+    top: 950px;
 }
 #bio-name {
    position: relative;
