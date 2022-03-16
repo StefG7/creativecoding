@@ -1,0 +1,42 @@
+#nametext {
+    color: #2f1962;
+    text-align: center;
+    font-size: 8em;
+    font-family: 'Rock Salt', cursive;
+    line-height: 70%;
+}
+#csc {
+  font-family: 'Verdana';
+  text-align: center;
+  font-size 2em;
+  line-height: 200%;
+}
+#sketch1 {
+   position: absolute;
+    left: 20%;
+}
+#sketch2 {
+   position: relative;
+    left: 20%;
+    top: 750px;
+}
+#sketch3 {
+   position: relative;
+    left: 20%;
+    top: 750px;
+}
+#biocss {
+   position: relative;
+    left: 20%;
+    top: 750px;
+}
+#bio-name {
+   position: relative;
+    left: 320px;
+    top: -360px;
+}
+#bio-text {
+   position: relative;
+    left: 160px;
+    top: -360px;
+}
