@@ -69,6 +69,7 @@ function mousePressed() {
     // cursor(cursor1)
     if (!playToggle && isPlaying != true) {
       song1.play()
+      song1.setVolume(0.1)
     } else {
       song1.pause()
     }
@@ -78,6 +79,7 @@ function mousePressed() {
     // cursor(cursor2)
     if (!playToggle2 && isPlaying != true) {
       song2.play()
+      song2.setVolume(0.1)
     } else {
       song2.pause()
     }
@@ -87,6 +89,7 @@ function mousePressed() {
     // cursor(cursor3)
     if (!playToggle3 && isPlaying != true) {
       song3.play()
+      song3.setVolume(0.1)
     } else {
       song3.pause()
     }
@@ -96,6 +99,7 @@ function mousePressed() {
     // cursor(cursor4)
     if (!playToggle4 && isPlaying != true) {
       song4.play()
+      song4.setVolume(0.1)
     } else {
       song4.pause()
     }
@@ -113,26 +117,34 @@ function keyTyped() {
     save(soundFile, 'mySound.wav');
     state++
   } else if (key == 'a') {
+    adlib1.setVolume(0.1)
     adlib1.play()
   } else if (key == 's') {
+    adlib2.setVolume(0.1)
     adlib2.play()
   } else if (key == 'd') {
+    adlib3.setVolume(0.1)
     adlib3.play()
   } else if (key == 'f') {
+    adlib4.setVolume(0.1)
     adlib4.play()
   } else if (key == 'j') {
+    chord1.setVolume(0.2)
     chord1.play()
   } else if (key == 'u') {
     chord1.stop()
   } else if (key == 'k') {
+    chord2.setVolume(0.2)
     chord2.play()
   } else if (key == 'i') {
     chord2.stop()
   } else if (key == 'l') {
+    chord3.setVolume(0.2)
     chord3.play()
   } else if (key == 'o') {
     chord3.stop()
   } else if (key == ';') {
+    chord4.setVolume(0.2)
     chord4.play()
   } else if (key == 'p') {
     chord4.stop()
@@ -151,3 +163,16 @@ function quadrants() {
   quad4 = rect(windowWidth/2,windowHeight/2,windowWidth/2,windowHeight/2)
 } 
 
+function keyPressed() {
+  if (keyCode == ENTER) {
+    redraw()
+    song1.pause()
+    song2.pause()
+    song3.pause()
+    song4.pause()
+    chord1.stop()
+    chord2.stop()
+    chord3.stop()
+    chord4.stop()
+  }
+}
