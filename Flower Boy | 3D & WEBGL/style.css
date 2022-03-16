@@ -1,0 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  background-image: url(https://www.xmple.com/wallpaper/red-orange-gradient-linear-5120x2160-c2-ffba0d-ff370d-a-105-f-14.svg);
+/*   background-image: url(https://www.xmple.com/wallpaper/yellow-orange-gradient-linear-1920x1080-c2-ffff00-ff4500-a-105-f-14.svg); */
+    
+  /* "https://www.teahub.io/photos/full/37-374643_sky-with-little-clouds.jpg");*/
+  background-size: cover;
+  background-repeat: no-repeat;
+}
