@@ -56,6 +56,8 @@
     top: 550px
  }
 #biocss {
+   font-family: 'Arial';
+   font-size: 1.5em;
    position: relative;
    left: 22%;
     top: 950px;
