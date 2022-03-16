@@ -9,56 +9,56 @@
   font-family: 'Arial';
   text-align: center;
   font-size: 2em;
-  line-height: 200%;
+  line-height: 175%;
 }
 #sketch1 {
-   position: relative;
-    left: 30%;
+    position: relative;
+    left: 25%;
 }
 #sketch2 {
-   position: relative;
-    left: 30%;
-    top: 50px
+    position: relative;
+    left: 25%;
+    top: 70px
 }
 #sketch3 {
-   position: relative;
-    left: 30%;
-    top: 50px
+    position: relative;
+    left: 25%;
+    top: 70px
 }
 #sketch4 {
     position: relative;
-    left: 30%;
+    left: 25%;
     top: 50px
  }
 #sketch5 {
     position: relative;
-    left: 30%;
-    top: 50px
+    left: 25%;
+    top: 150px
  }
 #sketch6 {
     position: relative;
-    left: 30%;
-    top: 50px
+    left: 25%;
+    top: 250px
  }
 #sketch7 {
     position: relative;
-    left: 30%;
-    top: 50px
+    left: 25%;
+    top: 350px
  }
 #sketch8 {
     position: relative;
-    left: 30%;
-    top: 50px
+    left: 20%;
+    top: 450px
  }
 #sketch9 {
     position: relative;
     left: 30%;
-    top: 150px
+    top: 550px
  }
 #biocss {
    position: relative;
-    left: 20%;
-    top: 750px;
+   left: 22%;
+    top: 950px;
 }
 #bio-name {
    position: relative;
