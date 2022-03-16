@@ -51,12 +51,12 @@ function setup() {
   //canvas setup
   canvas = createCanvas(windowWidth, windowHeight);
   canvas.mousePressed(canvasPressed);
-  size = (windowWidth/(windowWidth*1.2));
+  size = (windowWidth/(windowWidth*1.5));
   imageMode(CENTER)
   //font setup
   textFont(font1)
   textAlign(CENTER)
-  textSize(50*size)
+  textSize(40*size)
   //misc variables
   imgx = windowWidth/2;
   imgy = windowHeight/3;
@@ -75,8 +75,8 @@ function draw() {
   if (playToggle > 0 && counter == 0) {
     push()
       text("use the left and right keys to move forward or backwards in the poem",worx,imgy)
-      arrows.resize(500*size,0)
-      image(arrows,imgx,wory-250)
+      arrows.resize(300*size,0)
+      image(arrows,imgx,wory-150)
       text("press right key to begin reading the poem",worx,wory)
     pop()
   }
@@ -124,42 +124,47 @@ function introScreen() {
   push()
     rectMode(CENTER)
     strokeWeight(5)
-    textSize(100*size)
+    textSize(70*size)
     rect(windowWidth/2,(windowHeight*3)/4,windowWidth/3.5,windowWidth/10,40*size)
-    text('click to start',windowWidth/2,((windowHeight*3)/4)+25)
+    text('click to start',windowWidth/2,((windowHeight*3)/4)+20)
   pop()
 }
 
 function screen1() {
+  s1.resize(600*size,0)
   image(s1,imgx,imgy)
   text(verse[0],worx,wory)
 }
 
 function screen2() {
+  s2.resize(600*size,0)
   image(s2,imgx,imgy)
   text(verse[1],worx,wory-25)
   text(verse[2],worx,wory+25)
 }
 
 function screen3() {
+  s3.resize(600*size,0)
   image(s3,imgx,imgy)
   text(verse[3],worx,wory-25)
   text(verse[4],worx,wory+25)
 }
 
 function screen4() {
-  s4.resize(650*size,0)
+  s4.resize(600*size,0)
   image(s4,imgx,imgy+50)
   text(verse[5],worx,wory-25)
   text(verse[6],worx,wory+25)
 }
 
 function screen5() {
+  s5.resize(600*size,0)
   image(s5,imgx,imgy)
   text(verse[7],worx,wory)
 }
 
 function screen6() {
+  s6.resize(600*size,0)
   image(s6,imgx,imgy) 
   text(verse[8],worx,wory-25)
   text(verse[9],worx,wory+25)
@@ -168,8 +173,8 @@ function screen6() {
 function screen7() {
   text(verse[10],worx,imgy-100)
   text(verse[11],worx,wory+100)
-  s7.resize(550*size,0)
-  image(s7,imgx,wory-180)
+  s7.resize(600*size,0)
+  image(s7,imgx,wory-150)
 }
 
 function endScene() {
